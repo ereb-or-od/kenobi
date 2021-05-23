@@ -19,6 +19,7 @@ import (
 	"github.com/newrelic/go-agent/v3/newrelic"
 	apmecho "github.com/opentracing-contrib/echo"
 	"github.com/opentracing/opentracing-go"
+	echoSwagger "github.com/swaggo/echo-swagger"
 	"github.com/tylerb/graceful"
 	"time"
 )
@@ -147,6 +148,11 @@ func (k *KenobiServer) WithRecoverMiddleware() *KenobiServer {
 		DisablePrintStack: false,
 		LogLevel:          log.ERROR,
 	}))
+	return k
+}
+
+func (k *KenobiServer) UseSwagger() *KenobiServer {
+	k.http.GET("/swagger/*", echoSwagger.WrapHandler)
 	return k
 }
 
