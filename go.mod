@@ -11,7 +11,7 @@ require (
 	github.com/go-openapi/spec v0.20.3 // indirect
 	github.com/go-openapi/swag v0.19.15 // indirect
 	github.com/go-pg/pg/v10 v10.9.3
-	github.com/go-redis/redis/v8 v8.8.3
+	github.com/go-redis/redis/v8 v8.9.0
 	github.com/google/uuid v1.2.0
 	github.com/hashicorp/go-immutable-radix v1.3.0
 	github.com/json-iterator/go v1.1.11
@@ -26,8 +26,7 @@ require (
 	github.com/prometheus/client_golang v1.10.0
 	github.com/spf13/viper v1.7.1
 	github.com/streadway/amqp v1.0.0
-	github.com/swaggo/echo-swagger v1.1.0 // indirect
-	github.com/swaggo/swag v1.7.0 // indirect
+	github.com/swaggo/echo-swagger v1.1.0
 	github.com/tylerb/graceful v1.2.15
 	github.com/xiam/to v0.0.0-20200126224905-d60d31e03561
 	go.mongodb.org/mongo-driver v1.5.2
