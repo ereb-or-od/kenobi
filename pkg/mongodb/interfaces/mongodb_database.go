@@ -2,7 +2,7 @@ package interfaces
 
 import "context"
 
-type MongoDbDatabase  interface {
+type MongoDbDatabase interface {
 	Insert(ctx context.Context, entity interface{}) error
 	BulkInsert(ctx context.Context, entities []interface{}) error
 	FindOneById(ctx context.Context, id string, entity interface{}) error
@@ -14,5 +14,3 @@ type MongoDbDatabase  interface {
 	DeleteOneByFilter(ctx context.Context, condition string, params ...interface{}) error
 	DeleteAllByFilter(ctx context.Context, condition string, params ...interface{}) error
 }
-
-

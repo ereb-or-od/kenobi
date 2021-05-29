@@ -7,6 +7,7 @@ require (
 	github.com/Microsoft/go-winio v0.5.0 // indirect
 	github.com/armon/go-metrics v0.3.8
 	github.com/circonus-labs/circonus-gometrics/v3 v3.4.4
+	github.com/couchbase/gocb/v2 v2.2.3
 	github.com/dgraph-io/ristretto v0.0.3
 	github.com/go-openapi/spec v0.20.3 // indirect
 	github.com/go-openapi/swag v0.19.15 // indirect
