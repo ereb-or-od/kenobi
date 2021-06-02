@@ -15,7 +15,7 @@ require (
 	github.com/google/uuid v1.2.0
 	github.com/hashicorp/go-immutable-radix v1.3.0
 	github.com/json-iterator/go v1.1.11
-	github.com/labstack/echo-contrib v0.9.0
+	github.com/labstack/echo-contrib v0.11.0
 	github.com/labstack/echo/v4 v4.3.0
 	github.com/labstack/gommon v0.3.0
 	github.com/mailru/easyjson v0.7.7 // indirect
@@ -35,4 +35,5 @@ require (
 	golang.org/x/net v0.0.0-20210521195947-fe42d452be8f
 	golang.org/x/sys v0.0.0-20210521203332-0cec03c779c1 // indirect
 	golang.org/x/tools v0.1.1 // indirect
+	google.golang.org/grpc/examples v0.0.0-20210601235035-e5cad3dcff81 // indirect
 )
