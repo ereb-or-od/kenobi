@@ -19,7 +19,7 @@ require (
 	github.com/labstack/echo/v4 v4.3.0
 	github.com/labstack/gommon v0.3.0
 	github.com/mailru/easyjson v0.7.7 // indirect
-	github.com/newrelic/go-agent/v3 v3.12.0
+	github.com/newrelic/go-agent/v3 v3.14.0
 	github.com/newrelic/go-agent/v3/integrations/nrecho-v4 v1.0.0
 	github.com/opentracing-contrib/echo v0.0.0-20190807091611-5fe2e1308f06
 	github.com/opentracing/opentracing-go v1.2.0
