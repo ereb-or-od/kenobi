@@ -10,7 +10,7 @@ require (
 	github.com/dgraph-io/ristretto v0.0.3
 	github.com/go-openapi/spec v0.20.3 // indirect
 	github.com/go-openapi/swag v0.19.15 // indirect
-	github.com/go-pg/pg/v10 v10.9.3
+	github.com/go-pg/pg/v10 v10.10.2
 	github.com/go-redis/redis/v8 v8.9.0
 	github.com/google/uuid v1.2.0
 	github.com/hashicorp/go-immutable-radix v1.3.0
