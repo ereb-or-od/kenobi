@@ -29,7 +29,7 @@ require (
 	github.com/swaggo/echo-swagger v1.1.0
 	github.com/tylerb/graceful v1.2.15
 	github.com/xiam/to v0.0.0-20200126224905-d60d31e03561
-	go.mongodb.org/mongo-driver v1.5.2
+	go.mongodb.org/mongo-driver v1.7.0
 	go.uber.org/zap v1.16.0
 	golang.org/x/crypto v0.0.0-20210513164829-c07d793c2f9a // indirect
 	golang.org/x/net v0.0.0-20210521195947-fe42d452be8f
